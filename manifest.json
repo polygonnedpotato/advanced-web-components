@@ -1,0 +1,11 @@
+{
+    "name": "Advanced Web Components (Staging)",
+    "description" : "A framework to extend the capabilities of the web.",
+    "version": "0.0.0.0000",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "/internal/chrome_ext/popup.html",
+      "default_icon": "/res/awcicon.png",
+      "options_page": "/internal/chrome_ext/settings.html"
+    }
+  }
