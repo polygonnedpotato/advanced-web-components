@@ -1,0 +1,28 @@
+.popup {
+    width: 500px;
+    height: 500px;
+}
+#titlebar {
+    float: center;
+    width: 250px;
+    height: 12px;
+    font-size: 10px;
+    text-align: center;
+    padding: auto;
+    background: #00C3FF;
+}
+#content {
+    float: center;
+    text-align: center;
+    background: #FFFFFF;
+    width: 1000;
+}
+#bottombar {
+    float: center;
+    height: 12px;
+    font-size: 10px;
+    text-align: center;
+    padding: auto;
+    background: #E3DEDE;
+    clear: both;
+}
