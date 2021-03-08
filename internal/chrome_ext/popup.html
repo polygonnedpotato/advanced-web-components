@@ -6,10 +6,19 @@
     <link href="/internal/themes/basic/popup.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+    <script>
+        var manifestData = chrome.runtime.getManifest();
+        document.getElementById("bbv").innerHTML = manifestData.version;
+    </script>
     <titlebar>
-        <!--edit the main.conf file in /internal/assoc/ to change the title.-->
+        Advanced Web Components for Chromium Browsers
     </titlebar>
-    
+    <statusbody>
+
+    </statusbody>
+    <bottombar>
+        <bottombarversion id="bbv"></bottombarversion>
+    </bottombar>
 </body>
 
 </html>
