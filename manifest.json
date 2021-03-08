@@ -16,6 +16,6 @@
     "16": "/res/awcminilogo.png"
   },
   "background": {
-    "scripts": ["/internal/runtime/background.js"]
+    "service_worker": "background.js"
   }
 }

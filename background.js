@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(function () {
             id: key,
             title: kAWCActions[key],
             type: 'normal',
-            contexts: ['selection'],
+            contexts: ['all'],
         });
     }
 });
