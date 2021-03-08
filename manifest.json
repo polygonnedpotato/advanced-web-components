@@ -1,7 +1,7 @@
 {
   "name": "Advanced Web Components (Staging)",
   "description": "A framework to extend the capabilities of the web.",
-  "version": "0.0.0.0001",
+  "version": "0.0.0.0002",
   "manifest_version": 3,
   "permissions": [
     "contextMenus",
