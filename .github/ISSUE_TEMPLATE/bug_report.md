@@ -26,13 +26,13 @@ assignees: ''
 **FULL CONF DETAILS**: (Please inspect the background view and run **debuggetconf()** in the terminal. Then copy everything down below.)  
   
 **HOW TO REPRODUCE**  
+
   1. Step 1  
   2. Step 2  
   3. Step 3  
   
 **COMMENTS**  
 {Insert your comments here}  
-
 
 
 **DEBUG DUMP**: {Do the same for the Conf part except run **dbgdmp()** instead.}  
