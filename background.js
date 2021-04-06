@@ -1,3 +1,4 @@
+import * as debug from '/internal/runtime/debug.js';
 import * as startup from '/internal/runtime/startup.js';
 import * as notify from '/internal/runtime/notify.js';
 import * as grabput from '/internal/runtime/grabput.js';
