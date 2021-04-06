@@ -8,9 +8,9 @@
     "storage"
   ],
   "action": {
-    "default_popup": "/internal/chrome_ext/popup.html",
+    "default_popup": "/internal/blink_ext/popup.html",
     "default_icon": "/res/awcicon.png",
-    "options_page": "/internal/chrome_ext/settings.html"
+    "options_page": "/internal/blink_ext/settings.html"
   },
   "icons": {
     "16": "/res/awcminilogo.png"
