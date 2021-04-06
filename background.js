@@ -1,4 +1,7 @@
 import * as startup from '/internal/runtime/startup.js';
+import * as notify from '/internal/runtime/notify.js';
+import * as grabput from '/internal/runtime/grabput.js';
+import * as wman from '/internal/windowmanager/wmanmain.js';
 
 chrome.runtime.onInstalled.addListener(function () {
     const kAWCActions = {
