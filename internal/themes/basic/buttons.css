@@ -1,0 +1,10 @@
+#buttonnormal {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/res/button.png) 30 round;
+}
+#buttonnormal::selection {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/res/buttondown.png) 30 round;
+}

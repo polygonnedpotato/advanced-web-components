@@ -1,0 +1,13 @@
+/* DESIGN REQUIREMENTS
+
+STAGING:
+    normal color: rgb(0,128,0)
+    dark varient: rgb(0,64,0)
+    light varient: rgb(0,255,128)
+    left light varient: rgb(0,255,0)*/
+.header {
+    padding: 60px;
+    text-align: center;
+    background: rgb(0,128,0);
+    color: white;
+  }

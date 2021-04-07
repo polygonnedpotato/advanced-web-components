@@ -15,7 +15,7 @@ function NormalNotification(Title, BodyText) {
                     icon: IconName,
                 });
             } else {
-                console.log('User blocked notifications.');
+                Log('NormalNotification','/internal/runtime/notify.js','Error','User blocked notifications.');
             }
         }).catch(function (err) {
             console.error(err);
@@ -24,13 +24,17 @@ function NormalNotification(Title, BodyText) {
 }
 function NormalNotificationWithIcon(Title, BodyText, IconName) {
     if (Notification.permission === 'granted') {
-        // show notification here
-        var notify = new Notification(Title, {
-            body: BodyText,
-            icon: IconName
-        });
+        try {
+            var notify = new Notification(Title, {
+                body: BodyText,
+                icon: IconName
+            }
+        }, catch(err) {
+            Log("NormalNotificationWithIcon(" + Title + ", " + BodyText + ", " + IconName + ")",'/internal/runtime/notify.js','Error','Error returned:' + err)
+        };
     } else {
         debug.log()
+    }
 }
 function PersistantNotification() {
 
@@ -39,5 +43,11 @@ function RemovePersistantNotification(NotificationID) {
 
 }
 function WindowedNotification() {
+
+}
+function ProgressNotification(Title,BodyText,Progress) {
+
+}
+function SetProgressNotification(NotificationID) {
 
 }
