@@ -1,9 +1,9 @@
-function NormalNotification(Title, BodyText, IconName) {
+import * as debug from 'debug.js'
+function NormalNotification(Title, BodyText) {
     if (Notification.permission === 'granted') {
         // show notification here
         var notify = new Notification(Title, {
             body: BodyText,
-            icon: IconName,
         });
     } else {
         // request permission from user
@@ -21,6 +21,16 @@ function NormalNotification(Title, BodyText, IconName) {
             console.error(err);
         });
     }
+}
+function NormalNotificationWithIcon(Title, BodyText, IconName) {
+    if (Notification.permission === 'granted') {
+        // show notification here
+        var notify = new Notification(Title, {
+            body: BodyText,
+            icon: IconName
+        });
+    } else {
+        debug.log()
 }
 function PersistantNotification() {
 

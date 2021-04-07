@@ -1,3 +1,7 @@
 {
-    "IconThemes": 1
+    "IconThemes": 1,
+    "IconTheme0": {
+        "Name": "Basic",
+        "Icons": ["error.svg"]
+    }
 }

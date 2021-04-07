@@ -5,6 +5,7 @@ import * as grabput from '/internal/runtime/grabput.js';
 import * as wman from '/internal/windowmanager/wmanmain.js';
 
 chrome.runtime.onInstalled.addListener(function () {
+    
     const kAWCActions = {
         'wmanextpage': '[AWC WMan] Open in an external window',
     };
