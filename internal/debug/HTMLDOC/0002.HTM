@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DBGPG-0002</title>
+    <link href="/internal/debug/intdbg.css" type="text/css" rel="stylesheet">
+    <script src="/internal/runtime/debug.js"></script>
+    <script src="/internal/runtime/database.js"></script>
+</head>
+<dbgtitle>
+    Jump to PageID (PageID:0002)
+</dbgtitle><br><br>
+<body>
+    <button onclick="GetDebugPage('0000')">Exit</button><br>
+    <p>Please input a valid PageID</p>
+    <input id="pageid">
+    <button type="button" onclick="goto()">Submit</button>
+    <script>
+      function goto() {
+        x = document.getElementById("pageid").value;
+        GetDebugPage(x)
+      }
+    </script>
+</body>
+</html>
