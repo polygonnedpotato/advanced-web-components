@@ -1,4 +1,4 @@
-# Advanced Web Components
+# elburg's framework
 
 A framework to extend the capabilities of the web. (Help Needed)
 
