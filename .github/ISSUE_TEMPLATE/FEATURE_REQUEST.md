@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Add some cool features to AWC
+about: Add some cool features to elburg's framework
 title: "Feature Request: "
 labels: enhancement
 assignees: ''
