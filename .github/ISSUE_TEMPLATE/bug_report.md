@@ -9,7 +9,7 @@ assignees: ''
 
 **IMPORTANT PART**  
   
-**VERSION OF AWC USED**: {replace with the version shown in your browser's extension manager}  
+**VERSION OF EFW USED**: {replace with the version shown in your browser's extension manager}  
 **PLATFORM USED**:  
   [ ] Chrome  
   [ ] Chromium  
